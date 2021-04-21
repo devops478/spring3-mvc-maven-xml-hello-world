@@ -28,6 +28,19 @@
 		</dependency>
 
 	</dependencies>
+ 
+	<distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>springapp Releases Nexus Repository</name>
+	      <url>http://ec2-34-231-109-245.compute-1.amazonaws.com:8081/repository/spring-app-releases/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>springapp Snapshot Nexus Repository </name>
+	      <url>http://ec2-34-231-109-245.compute-1.amazonaws.com:8081/repository/spring-app-snapshot/</url>
+	    </snapshotRepository>
+	</distributionManagement>
 
 	<build>
 
