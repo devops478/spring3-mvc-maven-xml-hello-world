@@ -34,7 +34,12 @@
 	      <id>nexus</id>
 	      <name>springapp Releases Nexus Repository</name>
 	      <url>http://ec2-34-231-109-245.compute-1.amazonaws.com:8081/repository/spring-app/</url>
-	    </repository>
+	    </repository
+            <snapshotRepository>
+	      <id>nexus</id>
+	      <name>springapp Releases Nexus Repository</name>
+	      <url>http://ec2-34-231-109-245.compute-1.amazonaws.com:8081/repository/spring-app-snap/</url>
+	    </snapshotRepository>
 	</distributionManagement>
 
 	<build>
